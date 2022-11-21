@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-header {
+    padding: 50px;
+}
+
+.container {
+    padding: 100px 0;
+}
+
+.header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo {
+    height: 50%;
+    width: 50%;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+#home-area {
+    background-color: #3b5998;
+    padding-bottom: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.home-area .btn1 {
+    background-color: #F63854;
+    padding: 5px 10px;
+    margin: 0 5px 0 5px;
+}
+
+.home-area .btn2,
+button {
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 0 20px 0 20px;
+}
+
+.home-area button:hover {
+    background-color: yellow;
+}
+
+#home-area {
+    background-image: url("./pictures/hero-area.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.services-item .service-content h3 a {
+    font-size: 16px;
+    color: #585b60;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.services-item .service-content h3 a:hover {
+    text-decoration: none;
+    color: #F63854;
+    transition: ease-in-out 0.2s;
+}
+
+.services-item {
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 15px 0;
+    box-shadow: 0 0 12px #f4f4f4;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.services-item:hover i::before {
+    transition: ease-in-out 0.2s;
+    background: #F63854;
+    color: #fff;
+}
+
+.services-item:hover {
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: 0 10px 22px 10px rgb(27 38 49 / 10%);
+}
+
+.bi::before {
+    font-size: 30px;
+    border: 1px solid #f4f4f4;
+    color: #f63854;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+#aboutArea .container {
+    background-color: #333;
+}
+
+#aboutArea p,
+h2 {
+    color: #f4f4f4;
+}
+
+#aboutArea img {
+    width: 100%;
+    position: relative;
+}
+
+#aboutArea2 .container {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.aboutarea2-item .content h3 a {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutarea2-item .content h3 a:hover {
+    text-decoration: none;
+    color: #F63854;
+    transition: ease-in-out 0.2s;
+}
+
+.aboutarea2-item {
+    padding: 20px;
+    border-radius: 4px;
+    margin: 15px 0;
+    box-shadow: 0 0 12px #585b60;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.aboutarea2-item:hover i::before {
+    transition: ease-in-out 0.2s;
+    background: #F63854;
+    color: #fff;
+}
+
+.aboutarea2-item:hover {
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: 0 10px 22px 10px rgb(27 38 49 / 10%);
+}
+
+#aboutArea2 .content-right {
+    padding: 50px 20px 0 20px;
+}
+
+#pictures img {
+    height: 270px;
+    width: 270px;
+    margin: 5px;
+}
+
+#Clients .container {
+    background-color: burlywood;
+    padding: 0;
+}
+
+#Clients img {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    margin: 15px 0;
+    align-items: center;
+}
+
+#Clients .content-right {
+    padding: 50px 20px 0 20px;
+}
+
+#handCraft .content {
+    box-sizing: border-box;
+    box-shadow: 2px #333;
+}
+
+.contact-us .container {
+    padding: 0px;
+}
+
+.footer-area .container {
+    padding: 50px;
+}
+
+.footer-area {
+    background-color: #333;
+    margin-top: 50px;
+}
+
+.footer-area img {
+    margin: 10px 0px;
+    width: 200px;
+    height: 50px;
+    vertical-align: middle;
+    background-color: #f4f4f4;
+}
+
+.footer-icons li .lni-facebook-filled {
+    color: #3b5998;
+}
+
+.footer-icons li .lni-twitter-filled {
+    color: #00aced;
+}
+
+.footer-icons li .lni-instagram-filled {
+    color: #fb3958;
+}
+
+.footer-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0px;
+    padding: 10px;
+    outline: 0 !important;
+}
+
+.footer-area p {
+    color: #f4f4f4;
+}
+
+.footer-area h3 {
+    color: #f4f4f4;
+}
+
+.footer-area li {
+    color: #f4f4f4;
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer-area .address i {
+    margin-right: 15px;
+    color: #F63854;
+}
+
+a.back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    text-decoration: none;
+    color: #f4f4f4;
+    background-color: #333;
+    border-radius: 50px;
+    padding: 5px;
+    transition: ease-in-out 0.5s;
+}
